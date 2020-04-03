@@ -39,6 +39,7 @@ body {
     margin-right: 40px;
     font-size: 35px;
     font-family: head;
+    cursor: pointer;
 }
 
 
@@ -47,6 +48,7 @@ body {
     color: white;
     font-size: 35px;
     font-family: head;
+    cursor: pointer;
 }
 
 .firstpost h3, .secondpost h3 {
@@ -113,6 +115,7 @@ body {
     border-radius: 15px;
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
 
 .btn {
@@ -121,6 +124,7 @@ body {
     padding: 5px;
     background-color: rgba(26,27,35,0.7);
     color: white;
+    cursor: pointer;
     
 }
 
@@ -131,6 +135,7 @@ body {
     padding: 5px;
     background-color: rgba(26,27,35,0.7);
     color: white;
+    cursor: pointer;
     
 }
 
