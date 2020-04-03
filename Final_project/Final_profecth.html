@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final_project.css">
+    <title>My project V.1.0</title>
+</head>
+<body>
+    <div class="firstblock">
+        <a href="#">Home</a>
+        <a href="#">Articles</a>
+        <a href="#">Followers</a>
+        <a href="#">Posts</a>
+    </div>
+    <div class="secondblock">
+            <div class="shortdescription" style="text-align: center;">
+                <h2 class="name">Igor Kim</h2>
+                <p>Igor Kim (born 1 July 1998) is one of the most required developer worldwide. Igor is in Top 3% of developers, according Toptal, and in Top 1%, according Crossover. Works along with programmers all over the world. Got 15 years of developing experience in IT!</p>
+                <hr style="width: 75%">
+         </div>   
+        <div class="thirdblock">
+           <div class="posts">
+            <div class="firstpost">
+                <h3><b>First post</b></h3>
+                <p>Here goes some quick facts!!</p>
+                <div id="hiddentext" style="display: none;">
+                    <ul><li>Gives all his time to programming</li>
+                        <p></p>
+                        <li> Was on his way to reach his goal and become the best developer.</li>
+                    </ul> 
+                </div>
+                <button class="btn" data-hiddendiv="hiddendiv" id="btn"><span class="def">def</span>
+                    <span class="name_func" id="btnvalue"> ReadFacts</span>()</button>
+               </div>
+               <div class="secondpost">
+                   <h3><b>Second post</b></h3>
+                   <p>Here goes some another facts!!!</p>
+                   <div id="hiddentext2" style="display: none;"><ul>
+                       <li>Has determined his dream job, by the age of 4!</li>
+                       <p></p>
+                       <li>Has work experience with firms like: Habit.com, EngineYard, MyAlerts, Currency Cloud!!!</li>
+                    </ul>
+                   </div>
+               <button class="btn2" id="btn2" onclick="readMore()"><span class="def">def </span>
+                <span class="name_func" id="btnvalue2">ReadFacts</span>()
+                <span class="comments">#2</span></button>
+             </div>
+             </div>
+             <div class="forthblock">
+                <img class="Igors_pict" src="images/Igor.jfif">
+                <a class="link editprofile" href="#"><span class="def">def</span> <span class ="name_func">editProfile</span>(<span class ="func_value">yourData</span>)</a>
+                <a class="link vk" href="#"><span class ="func">function </span><span class ="name_func">OpenVK</span>() {</a>
+                <a class="link facebook" href="#"><span class="def">int </span><span class ="name_func">OpenFacebook</span>(<span class ="func_parametr">yourLink</span>) {</a>
+                <a class="link instagram" href="#"><span class="func">def</span><span class ="name_func"> ThatIsMyInsta</span>(<span class="func_valueP">YourLink</span>); <span class="comments">#Dammit why here are so many links!?!</span> </a>
+             </div>
+           </div>
+           <script>
+                const moreLinks = document.querySelector(".btn");
+
+                moreLinks.addEventListener('click', function(e) {
+                    event.preventDefault();
+
+                    const textBlock = document.getElementById("hiddentext");
+                    let buttonValue = document.getElementById("btnvalue");
+
+                    if (textBlock.style.display === "none") {
+                        textBlock.style.display = "inline-block";
+                        buttonValue.innerText = "CloseFacts";
+                    } else {
+                        textBlock.style.display = "none";
+                        buttonValue.innerText = "ReadFacts";
+                    }
+                });
+
+                //method #2
+                function readMore() {
+                    const Hiddntext = document.getElementById("hiddentext2");
+                    let buttonValue2 = document.getElementById("btnvalue2");
+
+                    if (Hiddntext.style.display === "none") {
+                        Hiddntext.style.display = "inline-block";
+                        buttonValue2.innerText = "CloseFacts";
+                    } else {
+                        Hiddntext.style.display = "none";
+                        buttonValue2.innerText = "ReadFacts";
+                    }
+                }
+           </script>
+  </body>
+</html>

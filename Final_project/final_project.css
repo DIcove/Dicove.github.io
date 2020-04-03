@@ -1,0 +1,163 @@
+@font-face {
+    src: url(fonts/Caveat/Caveat-Bold.ttf);
+    font-family: "head";
+}
+
+@font-face {
+    src: url(fonts/PressStart/PressStart2P-Regular.ttf);
+    font-family: "naming";
+}
+
+
+@font-face {
+    src: url(fonts/Coding/NanumGothicCoding-Regular.ttf);
+    font-family: "code";
+}
+
+@font-face {
+    src: url(fonts/Canon/IMFellFrenchCanonSC-Regular.ttf);
+    font-family: "vk";
+}
+
+body {
+    margin: 0;
+    background-image: url(images/background.jfif);
+    color: white;
+    font-size: 25px;
+}
+
+.firstblock {
+    text-align: center;
+    background-color: #333333;
+    padding: 50px;
+    opacity: 0.7;
+}
+
+.firstblock a {
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-size: 35px;
+    font-family: head;
+}
+
+
+.firstblock a:hover {
+    text-decoration: underline;
+    color: white;
+    font-size: 35px;
+    font-family: head;
+}
+
+.firstpost h3, .secondpost h3 {
+    font-family: naming;
+}
+
+.firstpost, .secondpost{
+    margin: 0;
+}
+
+.thirdblock .secondblock {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.secondblock {
+    border: 2px solid #212532;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(26,27,35,0.7);
+    margin-top: 30px;
+    font-family: code;
+    margin-bottom: 15px;
+    height: 932px;
+}
+
+.thirdblock {
+    display: flex;
+}
+
+.posts {
+    width: 540px;
+    margin-left: 50px;
+}
+
+ .forthblock {
+    text-align: center;
+    margin-left: 350px;
+    width: 305px;
+} 
+
+.Igors_pict{
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 40px;
+    border: 2px solid white;
+    border-radius: 1000px;
+}
+
+
+.name{
+    font-family: naming;
+}
+
+.link {
+    margin-left: 5px;
+    margin-top: 20px;
+    width: 305px;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid #5E698E;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.btn {
+    border: 1px solid #D6404B;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(26,27,35,0.7);
+    color: white;
+    
+}
+
+
+.btn2 {
+    border: 1px solid #E7DB6A;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(26,27,35,0.7);
+    color: white;
+    
+}
+
+.def {
+    color: #C586C0;
+}
+
+.name_func {
+    color: #DCCD79;
+}
+
+.comments {
+    color:#74705D;
+}
+
+.func_value {
+    color: #B2685A;
+}
+
+.func {
+    color: #358CD6;
+}
+
+.func_parametrn {
+    color: #3AC97B;
+}
+
+.func_valueP {
+    color: #9CDCF0;
+}
